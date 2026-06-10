@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yogesh Singh — Cyber Security & AI/ML</title>
+  <meta name="description" content="Portfolio of Yogesh Singh — a cybersecurity enthusiast and AI/ML developer from Etawah, India. Web developer, hackathon winner, and B.Tech student at REC Banda.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cursor follower -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="mainNav">
+    <div class="nav__logo">
+      <span class="nav__logo-y">Y</span><span class="nav__logo-dot">.</span>
+    </div>
+    <div class="nav__links">
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#achievements" class="nav__link">Wins</a>
+      <a href="#education" class="nav__link">Education</a>
+      <a href="#contact" class="nav__link nav__link--cta">Let's Talk</a>
+    </div>
+    <button class="nav__burger" id="navBurger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mobile-menu__link">About</a>
+    <a href="#skills" class="mobile-menu__link">Skills</a>
+    <a href="#achievements" class="mobile-menu__link">Wins</a>
+    <a href="#education" class="mobile-menu__link">Education</a>
+    <a href="#contact" class="mobile-menu__link">Let's Talk</a>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero__bg-text" aria-hidden="true">CYBER</div>
+    <div class="hero__content">
+      <div class="hero__tag">
+        <span class="hero__tag-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero__name">
+        <span class="hero__name-line hero__name-line--1">Yogesh</span>
+        <span class="hero__name-line hero__name-line--2">Singh<span class="hero__name-accent">.</span></span>
+      </h1>
+      <div class="hero__role">
+        <div class="hero__role-line"></div>
+        <span class="hero__role-text">Cyber Security & AI/ML</span>
+      </div>
+      <p class="hero__location">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Etawah, Uttar Pradesh, India
+      </p>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+    <div class="hero__shapes" aria-hidden="true">
+      <div class="hero__shape hero__shape--1"></div>
+      <div class="hero__shape hero__shape--2"></div>
+      <div class="hero__shape hero__shape--3"></div>
+    </div>
+  </header>
+
+  <!-- About / Summary Section -->
+  <section class="about" id="about">
+    <div class="about__container">
+      <div class="about__label">
+        <span class="section-number">01</span>
+        <span class="section-title">About Me</span>
+      </div>
+      <div class="about__grid">
+        <div class="about__text-col">
+          <blockquote class="about__quote reveal">
+            <span class="about__quote-mark">"</span>
+            I build things for the web and break things for security.
+          </blockquote>
+          <p class="about__desc reveal">
+            I'm a qualified and professional web developer with hands-on experience in database administration and website design. I combine strong creative instincts with analytical thinking — always looking for the detail others miss.
+          </p>
+          <p class="about__desc reveal">
+            Currently pursuing my B.Tech in Information Technology at <strong>Rajkiya Engineering College, Banda</strong>, I spend my time between coding, competing in hackathons, and exploring the intersection of cybersecurity and machine learning.
+          </p>
+        </div>
+        <div class="about__stats-col">
+          <div class="about__stat reveal">
+            <span class="about__stat-number" data-count="1">0</span>
+            <span class="about__stat-label"> Year of experience in Data Anlyst and Visulaization </span>
+          </div>
+          <div class="about__stat reveal">
+            <span class="about__stat-number" data-count="3">0</span>
+            <span class="about__stat-label">Hackathons competed</span>
+          </div>
+          <div class="about__stat reveal">
+            <span class="about__stat-number" data-count="3">0</span>
+            <span class="about__stat-label">Awards & recognitions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="skills__container">
+      <div class="skills__label">
+        <span class="section-number">02</span>
+        <span class="section-title">Skills & Tools</span>
+      </div>
+      <div class="skills__grid">
+        <div class="skill-card reveal" data-category="frontend">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3 class="skill-card__title">HTML</h3>
+          <p class="skill-card__desc">Semantic markup, accessibility-first approach, modern HTML5 features</p>
+          <div class="skill-card__bar"><div class="skill-card__fill" data-width="90"></div></div>
+        </div>
+
+        <div class="skill-card reveal" data-category="frontend">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3 class="skill-card__title">CSS</h3>
+          <p class="skill-card__desc">Animations, grid layouts, responsive design, custom properties</p>
+          <div class="skill-card__bar"><div class="skill-card__fill" data-width="85"></div></div>
+        </div>
+
+        <div class="skill-card reveal" data-category="backend">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="skill-card__title">Python</h3>
+          <p class="skill-card__desc">Scripting, automation, data processing, cybersecurity tools</p>
+          <div class="skill-card__bar"><div class="skill-card__fill" data-width="80"></div></div>
+        </div>
+
+        <div class="skill-card reveal" data-category="data">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          </div>
+          <h3 class="skill-card__title">Pandas</h3>
+          <p class="skill-card__desc">Data wrangling, analysis pipelines, dataframe operations</p>
+          <div class="skill-card__bar"><div class="skill-card__fill" data-width="70"></div></div>
+        </div>
+
+        <div class="skill-card reveal" data-category="data">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3 class="skill-card__title">Data Visualization</h3>
+          <p class="skill-card__desc">Charts, dashboards, storytelling with data</p>
+          <div class="skill-card__bar"><div class="skill-card__fill" data-width="75"></div></div>
+        </div>
+
+        <div class="skill-card reveal" data-category="ml">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4m-7.07-15.07l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/></svg>
+          </div>
+          <h3 class="skill-card__title">Machine Learning</h3>
+          <p class="skill-card__desc">Supervised learning, model evaluation, scikit-learn basics</p>
+          <div class="skill-card__bar"><div class="skill-card__fill" data-width="60"></div></div>
+        </div>
+      </div>
+
+      <div class="skills__languages reveal">
+        <h3 class="skills__lang-title">Languages I Speak</h3>
+        <div class="skills__lang-pills">
+          <span class="lang-pill">
+            <span class="lang-pill__flag">🇮🇳</span>
+            Hindi <span class="lang-pill__level">Native</span>
+          </span>
+          <span class="lang-pill">
+            <span class="lang-pill__flag">🇬🇧</span>
+            English <span class="lang-pill__level">Proficient</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements / Hackathons Section -->
+  <section class="achievements" id="achievements">
+    <div class="achievements__container">
+      <div class="achievements__label">
+        <span class="section-number">03</span>
+        <span class="section-title">Wins & Hackathons</span>
+      </div>
+
+      <div class="achievements__timeline">
+        <!-- Hackathon 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-item__date">
+            <span class="timeline-item__month">Jan</span>
+            <span class="timeline-item__year">2026</span>
+          </div>
+          <div class="timeline-item__dot"></div>
+          <div class="timeline-item__content">
+            <div class="timeline-item__badge">HACKATHON</div>
+            <h3 class="timeline-item__title">HACKFEST 2.0</h3>
+            <p class="timeline-item__desc">Qualified for 2nd round — competed against top teams in cybersecurity challenges.</p>
+          </div>
+        </div>
+
+        <!-- Hackathon 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-item__date">
+            <span class="timeline-item__month">Apr</span>
+            <span class="timeline-item__year">2025</span>
+          </div>
+          <div class="timeline-item__dot"></div>
+          <div class="timeline-item__content">
+            <div class="timeline-item__badge">HACKATHON</div>
+            <h3 class="timeline-item__title">NCIIPC-AICTE PENTATHON 2025</h3>
+            <p class="timeline-item__desc">Qualified for 2nd round in the national-level cybersecurity pentathon organized by NCIIPC and AICTE.</p>
+          </div>
+        </div>
+
+        <!-- Award 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-item__date">
+            <span class="timeline-item__month">2025</span>
+            <span class="timeline-item__year">&nbsp;</span>
+          </div>
+          <div class="timeline-item__dot timeline-item__dot--gold"></div>
+          <div class="timeline-item__content">
+            <div class="timeline-item__badge timeline-item__badge--gold">CERTIFICATE — AVATAR '25</div>
+            <h3 class="timeline-item__title">🏆 Winner of Ideathon</h3>
+            <p class="timeline-item__desc">Pitched an innovative idea and won first place in the college-level Ideathon event.</p>
+          </div>
+        </div>
+
+        <!-- Award 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-item__date">
+            <span class="timeline-item__month">2025</span>
+            <span class="timeline-item__year">&nbsp;</span>
+          </div>
+          <div class="timeline-item__dot timeline-item__dot--gold"></div>
+          <div class="timeline-item__content">
+            <div class="timeline-item__badge timeline-item__badge--gold">AWARD</div>
+            <h3 class="timeline-item__title">🥇 1st Position — Poster Designing</h3>
+            <p class="timeline-item__desc">Secured 1st position in poster design competition, combining technical knowledge with visual storytelling.</p>
+          </div>
+        </div>
+
+        <!-- Award 3 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-item__date">
+            <span class="timeline-item__month">—</span>
+            <span class="timeline-item__year">&nbsp;</span>
+          </div>
+          <div class="timeline-item__dot timeline-item__dot--silver"></div>
+          <div class="timeline-item__content">
+            <div class="timeline-item__badge timeline-item__badge--silver">AWARD</div>
+            <h3 class="timeline-item__title">🥈 Runner Up — Hackathon</h3>
+            <p class="timeline-item__desc">Finished as runner-up in a competitive hackathon, demonstrating strong problem-solving under pressure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education" id="education">
+    <div class="education__container">
+      <div class="education__label">
+        <span class="section-number">04</span>
+        <span class="section-title">Education</span>
+      </div>
+
+      <div class="education__cards">
+        <div class="edu-card reveal">
+          <div class="edu-card__period">2024 — 2028</div>
+          <div class="edu-card__content">
+            <div class="edu-card__degree">Bachelor of Technology</div>
+            <div class="edu-card__field">Information Technology</div>
+            <div class="edu-card__school">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"/></svg>
+              Rajkiya Engineering College, Banda
+            </div>
+            <div class="edu-card__status">
+              <span class="edu-card__status-dot"></span>
+              Currently Pursuing
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-card__period">2020 — 2022</div>
+          <div class="edu-card__content">
+            <div class="edu-card__degree">Intermediate</div>
+            <div class="edu-card__field">Completed Requirements</div>
+            <div class="edu-card__school">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"/></svg>
+              Narayan College of Science & Arts
+            </div>
+            <div class="edu-card__status edu-card__status--done">
+              <span class="edu-card__status-dot"></span>
+              Completed
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="contact__container">
+      <div class="contact__label">
+        <span class="section-number">05</span>
+        <span class="section-title">Get in Touch</span>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__text reveal">
+          <h2 class="contact__heading">
+            Let's build<br>something<br><em>together.</em>
+          </h2>
+          <p class="contact__sub">Got a project, idea, or just want to say hello? I'd love to hear from you.</p>
+        </div>
+        <div class="contact__info reveal">
+          <a href="mailto:2407340130068@recbanda.ac.in" class="contact__item">
+            <div class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>
+            </div>
+            <div class="contact__item-text">
+              <span class="contact__item-label">Email</span>
+              <span class="contact__item-value">2407340130068@recbanda.ac.in</span>
+            </div>
+          </a>
+          <a href="tel:+916397491614" class="contact__item">
+            <div class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div class="contact__item-text">
+              <span class="contact__item-label">Phone</span>
+              <span class="contact__item-value">+91 6397491614</span>
+            </div>
+          </a>
+          <div class="contact__item">
+            <div class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact__item-text">
+              <span class="contact__item-label">Location</span>
+              <span class="contact__item-value">Etawah, Uttar Pradesh, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__left">
+        <span class="footer__logo">Y<span>.</span></span>
+        <span class="footer__copy">© 2025 Yogesh Singh. Handcrafted with care.</span>
+      </div>
+      <div class="footer__right">
+        <span class="footer__made">Made in Etawah 🇮🇳</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
